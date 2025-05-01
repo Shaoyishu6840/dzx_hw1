@@ -1,2 +1,3 @@
-F:/zzy/code/algebra/build/CMakeFiles/edit_cache.dir
-F:/zzy/code/algebra/build/CMakeFiles/rebuild_cache.dir
+E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/main.dir
+E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/edit_cache.dir
+E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/rebuild_cache.dir

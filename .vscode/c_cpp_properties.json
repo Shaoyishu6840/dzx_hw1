@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:\\zjusjzl\\Dev-Cpp\\MinGW32\\include",
+                "E:\\zjusjzl\\Dev-Cpp\\MinGW32\\lib\\gcc\\mingw32\\4.7.2\\include",
+                "E:\\zjusjzl\\Dev-Cpp\\MinGW32\\lib\\gcc\\mingw32\\4.7.2\\include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}

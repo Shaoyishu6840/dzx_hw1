@@ -1,5 +1,29 @@
 # algebra
 硬件技术团队编程基础作业
+# 项目实现思路 Done by 党子祥
+
+*1.加减乘数乘等计算函数：用循环对矩阵进行遍历，分析对每个位置的数据进行的运算，进行简单计算
+
+*2.行列式：2*2矩阵利用公式展开，更大矩阵使用Laplace展开法，展开为子矩阵乘-1的i+j次乘该元素，再使用递归，总体降次计算
+
+*3.矩阵的逆：首先根据行列式判断是否可逆，再利用伴随矩阵求逆
+
+*4.矩阵的秩：通过初等行变换将矩阵转化为上三角，非零行数目就是秩
+
+*5.矩阵的迹：计数器使方阵对角线元素相加
+
+# 运行截图
+<div align="center">
+  <img src="./images/2025-05-01 155321.png" width="80%">
+</div>
+<div align="center">
+  <img src="./images/2025-05-01 155312.png" width="80%">
+</div>
+<div align="center">
+  <img src="./images/2025-05-01 151231.png" width="80%">
+</div>
+
+# 以下为原始题目
 ## 课件资料 | Reference
 * [课程PPT](https://tannin-1316822731.cos.ap-nanjing.myqcloud.com/2025-04-19-2025%E7%A1%AC%E4%BB%B6%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%86%85%E8%AE%AD.pdf)
 * [VSCode的C/C++环境配置教程](https://www.bilibili.com/video/BV1UZ421e7ty/?share_source=copy_web&vd_source=d82c2ec75577b6834f9f580f066180c1)
@@ -60,7 +84,4 @@ Error: Matrix a and b must have the same rows and cols.
 * `add_matrix`、`sub_matrix`、`mul_matrix`、`scale_matrix`、`transpose_matrix`、`trace_matrix`功能正常每个+5分
 * `det_matrix`、`inv_matrix`、`rank_matrix`功能正常共+10分（此处为附加题，有一定难度，可选做）
 > 为了保证题目难度，每个函数具体的评分标准不予公布。
-## 提交方式｜Submit
-将你的每个函数的测试运行结果以截图的形式放在你仓库的`README.md`文件中（请注意Markdown中图片的引用要包含源文件）。并将你的最终代码仓库链接（在浏览器上的那个，不要带有`.git`的）填写如下问卷发送：
 
-![](https://tannin-1316822731.cos.ap-nanjing.myqcloud.com/2025-04-19-%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%86%85%E8%AE%AD%E4%BD%9C%E4%B8%9A%E6%8F%90%E4%BA%A4.png)
