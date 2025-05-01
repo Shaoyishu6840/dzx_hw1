@@ -17,7 +17,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: E:/zjusjzl/Dev-Cpp/MinGW32/bin/cc.exe 
+      Compiler: E:/zjusjzl/Dev-Cpp/MinGW32/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
@@ -39,7 +39,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: E:/zjusjzl/Dev-Cpp/MinGW32/bin/c++.exe 
+      Compiler: E:/zjusjzl/Dev-Cpp/MinGW32/bin/g++.exe 
       Build flags: 
       Id flags:  
       
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6"
-      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6"
+      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v"
+      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,21 +71,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6'
+        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v'
         
-        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_7ab2b/fast
-        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7ab2b.dir\\build.make CMakeFiles/cmTC_7ab2b.dir/build
-        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6'
-        Building C object CMakeFiles/cmTC_7ab2b.dir/CMakeCCompilerABI.c.obj
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_bf07d/fast
+        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bf07d.dir\\build.make CMakeFiles/cmTC_bf07d.dir/build
+        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v'
+        Building C object CMakeFiles/cmTC_bf07d.dir/CMakeCCompilerABI.c.obj
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe
+        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe
         Target: mingw32
         Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
         Thread model: win32
         gcc version 4.7.2 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccCslcJK.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccaLEt3j.s
         GNU C (GCC) version 4.7.2 (mingw32)
         	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -106,19 +106,19 @@ events:
         	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccCslcJK.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccaLEt3j.s
         GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1
         COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
         LIBRARY_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
-        Linking C executable cmTC_7ab2b.exe
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7ab2b.dir\\link.txt --verbose=1
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7ab2b.dir/objects.a
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_7ab2b.dir/objects.a @CMakeFiles\\cmTC_7ab2b.dir\\objects1.rsp
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a -Wl,--no-whole-archive -o cmTC_7ab2b.exe -Wl,--out-implib,libcmTC_7ab2b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+        Linking C executable cmTC_bf07d.exe
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_bf07d.dir\\link.txt --verbose=1
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_bf07d.dir/objects.a
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_bf07d.dir/objects.a @CMakeFiles\\cmTC_bf07d.dir\\objects1.rsp
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a -Wl,--no-whole-archive -o cmTC_bf07d.exe -Wl,--out-implib,libcmTC_bf07d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
-        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe
+        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe
         Target: mingw32
         Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
@@ -126,12 +126,12 @@ events:
         gcc version 4.7.2 (GCC) 
         COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
         LIBRARY_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ab2b.exe' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_7ab2b.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a --no-whole-archive --out-implib libcmTC_7ab2b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf07d.exe' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_bf07d.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a --no-whole-archive --out-implib libcmTC_bf07d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
         collect2 version 4.7.2
-        e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_7ab2b.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a --no-whole-archive --out-implib libcmTC_7ab2b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_bf07d.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a --no-whole-archive --out-implib libcmTC_bf07d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
         GNU ld (GNU Binutils) 2.23.1
-        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6'
+        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v'
         
       exitCode: 0
   -
@@ -164,21 +164,21 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6']
+        ignore line: [Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_7ab2b/fast]
-        ignore line: [E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7ab2b.dir\\build.make CMakeFiles/cmTC_7ab2b.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-358dc6']
-        ignore line: [Building C object CMakeFiles/cmTC_7ab2b.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_bf07d/fast]
+        ignore line: [E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bf07d.dir\\build.make CMakeFiles/cmTC_bf07d.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-010t1v']
+        ignore line: [Building C object CMakeFiles/cmTC_bf07d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe]
+        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 4.7.2 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccCslcJK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccaLEt3j.s]
         ignore line: [GNU C (GCC) version 4.7.2 (mingw32)]
         ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -199,8 +199,8 @@ events:
         ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3b27086c5ded24a8d4e25ee0782084d1]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccCslcJK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccaLEt3j.s]
         ignore line: [GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1]
         ignore line: [COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/]
@@ -209,14 +209,14 @@ events:
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7ab2b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
-        ignore line: [Linking C executable cmTC_7ab2b.exe]
-        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7ab2b.dir\\link.txt --verbose=1]
-        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7ab2b.dir/objects.a]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_7ab2b.dir/objects.a @CMakeFiles\\cmTC_7ab2b.dir\\objects1.rsp]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a -Wl --no-whole-archive -o cmTC_7ab2b.exe -Wl --out-implib libcmTC_7ab2b.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bf07d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [Linking C executable cmTC_bf07d.exe]
+        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_bf07d.dir\\link.txt --verbose=1]
+        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_bf07d.dir/objects.a]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_bf07d.dir/objects.a @CMakeFiles\\cmTC_bf07d.dir\\objects1.rsp]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a -Wl --no-whole-archive -o cmTC_bf07d.exe -Wl --out-implib libcmTC_bf07d.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\cc.exe]
+        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
@@ -229,12 +229,12 @@ events:
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ab2b.exe' '-mtune=i386' '-march=i386']
-        link line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_7ab2b.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a --no-whole-archive --out-implib libcmTC_7ab2b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf07d.exe' '-mtune=i386' '-march=i386']
+        link line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -o cmTC_bf07d.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a --no-whole-archive --out-implib libcmTC_bf07d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_7ab2b.exe] ==> ignore
+          arg [cmTC_bf07d.exe] ==> ignore
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o]
           arg [-Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2] ==> dir [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2]
@@ -243,10 +243,10 @@ events:
           arg [-Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..] ==> dir [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_7ab2b.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_bf07d.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_7ab2b.dll.a] ==> ignore
+          arg [libcmTC_bf07d.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -269,7 +269,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
         ignore line: [collect2 version 4.7.2]
-        ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_7ab2b.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_7ab2b.dir/objects.a --no-whole-archive --out-implib libcmTC_7ab2b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_bf07d.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_bf07d.dir/objects.a --no-whole-archive --out-implib libcmTC_bf07d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
         linker tool for 'C': e:/zjusjzl/dev-cpp/mingw32/mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -307,8 +307,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae"
-      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae"
+      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4"
+      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -318,21 +318,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae'
+        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4'
         
-        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_e2969/fast
-        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e2969.dir\\build.make CMakeFiles/cmTC_e2969.dir/build
-        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae'
-        Building CXX object CMakeFiles/cmTC_e2969.dir/CMakeCXXCompilerABI.cpp.obj
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_d2ed0/fast
+        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2ed0.dir\\build.make CMakeFiles/cmTC_d2ed0.dir/build
+        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4'
+        Building CXX object CMakeFiles/cmTC_d2ed0.dir/CMakeCXXCompilerABI.cpp.obj
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe
+        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe
         Target: mingw32
         Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
         Thread model: win32
         gcc version 4.7.2 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccwc6kTd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccCSEKqY.s
         GNU C++ (GCC) version 4.7.2 (mingw32)
         	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -359,19 +359,19 @@ events:
         	compiled by GNU C version 4.7.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: fdc0bc7c97f61ac24bf8edb5646b3bc3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccwc6kTd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccCSEKqY.s
         GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1
         COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
         LIBRARY_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
-        Linking CXX executable cmTC_e2969.exe
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e2969.dir\\link.txt --verbose=1
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e2969.dir/objects.a
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_e2969.dir/objects.a @CMakeFiles\\cmTC_e2969.dir\\objects1.rsp
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a -Wl,--no-whole-archive -o cmTC_e2969.exe -Wl,--out-implib,libcmTC_e2969.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+        Linking CXX executable cmTC_d2ed0.exe
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d2ed0.dir\\link.txt --verbose=1
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d2ed0.dir/objects.a
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_d2ed0.dir/objects.a @CMakeFiles\\cmTC_d2ed0.dir\\objects1.rsp
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a -Wl,--no-whole-archive -o cmTC_d2ed0.exe -Wl,--out-implib,libcmTC_d2ed0.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
-        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe
+        COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe
         Target: mingw32
         Configured with: ../gcc-4.7.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
@@ -379,12 +379,12 @@ events:
         gcc version 4.7.2 (GCC) 
         COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/
         LIBRARY_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/;e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2969.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
-         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e2969.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a --no-whole-archive --out-implib libcmTC_e2969.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2ed0.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d2ed0.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a --no-whole-archive --out-implib libcmTC_d2ed0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
         collect2 version 4.7.2
-        e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e2969.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a --no-whole-archive --out-implib libcmTC_e2969.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
+        e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d2ed0.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a --no-whole-archive --out-implib libcmTC_d2ed0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o
         GNU ld (GNU Binutils) 2.23.1
-        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae'
+        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4'
         
       exitCode: 0
   -
@@ -423,21 +423,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae']
+        ignore line: [Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_e2969/fast]
-        ignore line: [E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e2969.dir\\build.make CMakeFiles/cmTC_e2969.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-wyibae']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e2969.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_d2ed0/fast]
+        ignore line: [E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2ed0.dir\\build.make CMakeFiles/cmTC_d2ed0.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-94ndc4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d2ed0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe]
+        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 4.7.2 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
-        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccwc6kTd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/cc1plus.exe -quiet -v -iprefix e:\\zjusjzl\\dev-cpp\\mingw32\\bin\\../lib/gcc/mingw32/4.7.2/ D:\\MEdownload\\CMAKE\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\华为\\AppData\\Local\\Temp\\ccCSEKqY.s]
         ignore line: [GNU C++ (GCC) version 4.7.2 (mingw32)]
         ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -464,8 +464,8 @@ events:
         ignore line: [	compiled by GNU C version 4.7.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: fdc0bc7c97f61ac24bf8edb5646b3bc3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
-        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccwc6kTd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\华为\\AppData\\Local\\Temp\\ccCSEKqY.s]
         ignore line: [GNU assembler version 2.23.1 (mingw32) using BFD version (GNU Binutils) 2.23.1]
         ignore line: [COMPILER_PATH=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/]
@@ -474,14 +474,14 @@ events:
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e2969.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
-        ignore line: [Linking CXX executable cmTC_e2969.exe]
-        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e2969.dir\\link.txt --verbose=1]
-        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e2969.dir/objects.a]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_e2969.dir/objects.a @CMakeFiles\\cmTC_e2969.dir\\objects1.rsp]
-        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a -Wl --no-whole-archive -o cmTC_e2969.exe -Wl --out-implib libcmTC_e2969.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2ed0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [Linking CXX executable cmTC_d2ed0.exe]
+        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d2ed0.dir\\link.txt --verbose=1]
+        ignore line: [D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d2ed0.dir/objects.a]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_d2ed0.dir/objects.a @CMakeFiles\\cmTC_d2ed0.dir\\objects1.rsp]
+        ignore line: [E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a -Wl --no-whole-archive -o cmTC_d2ed0.exe -Wl --out-implib libcmTC_d2ed0.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe]
+        ignore line: [COLLECT_GCC=E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/lto-wrapper.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../gcc-4.7.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
@@ -494,8 +494,8 @@ events:
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib/]
         ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2969.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
-        link line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e2969.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a --no-whole-archive --out-implib libcmTC_e2969.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2ed0.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        link line: [ e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d2ed0.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a --no-whole-archive --out-implib libcmTC_d2ed0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.7.2/collect2.exe] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-u] ==> ignore
@@ -503,7 +503,7 @@ events:
           arg [-u] ==> ignore
           arg [___deregister_frame_info] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e2969.exe] ==> ignore
+          arg [cmTC_d2ed0.exe] ==> ignore
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o]
           arg [-Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2] ==> dir [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2]
@@ -512,10 +512,10 @@ events:
           arg [-Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..] ==> dir [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_e2969.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_d2ed0.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_e2969.dll.a] ==> ignore
+          arg [libcmTC_d2ed0.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -539,7 +539,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o] ==> obj [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
         ignore line: [collect2 version 4.7.2]
-        ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_e2969.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_e2969.dir/objects.a --no-whole-archive --out-implib libcmTC_e2969.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
+        ignore line: [e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/bin/ld.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_d2ed0.exe e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../crt2.o e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtbegin.o -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2 -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../../../mingw32/lib -Le:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/../../.. -v --whole-archive CMakeFiles\\cmTC_d2ed0.dir/objects.a --no-whole-archive --out-implib libcmTC_d2ed0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/zjusjzl/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.7.2/crtend.o]
         linker tool for 'CXX': e:/zjusjzl/dev-cpp/mingw32/mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -578,8 +578,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-vr4i6v"
-      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-vr4i6v"
+      source: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-5tt1bu"
+      binary: "E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-5tt1bu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -588,19 +588,19 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-vr4i6v'
+        Change Dir: 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-5tt1bu'
         
-        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_ab44f/fast
-        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ab44f.dir\\build.make CMakeFiles/cmTC_ab44f.dir/build
-        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-vr4i6v'
-        Building CXX object CMakeFiles/cmTC_ab44f.dir/feature_tests.cxx.obj
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe   -std=c++11 -o CMakeFiles\\cmTC_ab44f.dir\\feature_tests.cxx.obj -c E:\\zjutbc\\C\\DangZixiang_hw1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vr4i6v\\feature_tests.cxx
-        Linking CXX executable cmTC_ab44f.exe
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ab44f.dir\\link.txt --verbose=1
-        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ab44f.dir/objects.a
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_ab44f.dir/objects.a @CMakeFiles\\cmTC_ab44f.dir\\objects1.rsp
-        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_ab44f.dir/objects.a -Wl,--no-whole-archive -o cmTC_ab44f.exe -Wl,--out-implib,libcmTC_ab44f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ab44f.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-vr4i6v'
+        Run Build Command(s): D:/MEdownload/CMAKE/bin/cmake.exe -E env VERBOSE=1 E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f Makefile cmTC_db77f/fast
+        E:/zjusjzl/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_db77f.dir\\build.make CMakeFiles/cmTC_db77f.dir/build
+        mingw32-make.exe[1]: Entering directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-5tt1bu'
+        Building CXX object CMakeFiles/cmTC_db77f.dir/feature_tests.cxx.obj
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe   -std=c++11 -o CMakeFiles\\cmTC_db77f.dir\\feature_tests.cxx.obj -c E:\\zjutbc\\C\\DangZixiang_hw1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tt1bu\\feature_tests.cxx
+        Linking CXX executable cmTC_db77f.exe
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_db77f.dir\\link.txt --verbose=1
+        D:\\MEdownload\\CMAKE\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_db77f.dir/objects.a
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\ar.exe qc CMakeFiles\\cmTC_db77f.dir/objects.a @CMakeFiles\\cmTC_db77f.dir\\objects1.rsp
+        E:\\zjusjzl\\Dev-Cpp\\MinGW32\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_db77f.dir/objects.a -Wl,--no-whole-archive -o cmTC_db77f.exe -Wl,--out-implib,libcmTC_db77f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_db77f.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'E:/zjutbc/C/DangZixiang_hw1/build/CMakeFiles/CMakeScratch/TryCompile-5tt1bu'
         
       exitCode: 0
 ...

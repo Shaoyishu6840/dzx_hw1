@@ -76,30 +76,30 @@ CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/main.c.obj: E:/zjutbc/C/DangZixiang_hw1/src/main.c
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\zjutbc\C\DangZixiang_hw1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/main.c.obj"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles\main.dir\src\main.c.obj.d -o CMakeFiles\main.dir\src\main.c.obj -c E:\zjutbc\C\DangZixiang_hw1\src\main.c
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles\main.dir\src\main.c.obj.d -o CMakeFiles\main.dir\src\main.c.obj -c E:\zjutbc\C\DangZixiang_hw1\src\main.c
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/main.c.i"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\zjutbc\C\DangZixiang_hw1\src\main.c > CMakeFiles\main.dir\src\main.c.i
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\zjutbc\C\DangZixiang_hw1\src\main.c > CMakeFiles\main.dir\src\main.c.i
 
 CMakeFiles/main.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/main.c.s"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\zjutbc\C\DangZixiang_hw1\src\main.c -o CMakeFiles\main.dir\src\main.c.s
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\zjutbc\C\DangZixiang_hw1\src\main.c -o CMakeFiles\main.dir\src\main.c.s
 
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/algebra.c.obj: E:/zjutbc/C/DangZixiang_hw1/src/algebra.c
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\zjutbc\C\DangZixiang_hw1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/algebra.c.obj"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/algebra.c.obj -MF CMakeFiles\main.dir\src\algebra.c.obj.d -o CMakeFiles\main.dir\src\algebra.c.obj -c E:\zjutbc\C\DangZixiang_hw1\src\algebra.c
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/algebra.c.obj -MF CMakeFiles\main.dir\src\algebra.c.obj.d -o CMakeFiles\main.dir\src\algebra.c.obj -c E:\zjutbc\C\DangZixiang_hw1\src\algebra.c
 
 CMakeFiles/main.dir/src/algebra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/algebra.c.i"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\zjutbc\C\DangZixiang_hw1\src\algebra.c > CMakeFiles\main.dir\src\algebra.c.i
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\zjutbc\C\DangZixiang_hw1\src\algebra.c > CMakeFiles\main.dir\src\algebra.c.i
 
 CMakeFiles/main.dir/src/algebra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/algebra.c.s"
-	E:\zjusjzl\Dev-Cpp\MinGW32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\zjutbc\C\DangZixiang_hw1\src\algebra.c -o CMakeFiles\main.dir\src\algebra.c.s
+	E:\zjusjzl\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\zjutbc\C\DangZixiang_hw1\src\algebra.c -o CMakeFiles\main.dir\src\algebra.c.s
 
 # Object files for target main
 main_OBJECTS = \
